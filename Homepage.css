@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+
+html{
+	/*font-size: 62.5%;*/
+	/*overflow: hidden;*/
+}
+
+.headline{
+	text-align: center;
+	color: darkblue;
+	font-size: 3.5rem; 
+	text-transform: uppercase;
+	font-weight: 2rem;
+	padding: 1rem;
+}
+
+section{
+	min-height: 100vh;
+	padding: 1rem 9%;
+	padding-top: 8rem;
+	//background-color: red;
+}
+
+header{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 2rem;
+	background-color:black;
+}
+
+header .logo{
+	font-size: 2rem;
+	color: red;
+}
+
+header .navbar a{
+	font-size: 1.5rem;
+	margin-left: .7rem;
+	padding: .5rem 2rem;
+	border-radius: .5rem;
+	color: darkblue;
+}
+
+header .navbar a.active,
+header .navbar a:hover{
+	background-color: white;
+	text-color: black;
+}
+
+.Home{
+	background-color: lightblue;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.Home .content{
+	text-align: center;
+	padding-top: 3rem;
+}
+.Home .content h1{
+	font-size:5rem;
+	padding-top:3rem;
+	color: darkblue;
+}
+.Home .content p{
+	font-size:3rem;
+	/*padding-top:2rem;*/
+	color: lightcyan;
+}
+.Aboutme{
+	background-color: yellow;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.Aboutme .content h1{
+	font-size:5rem;
+	padding-top:3rem;
+	color: red;
+}
+.Aboutme .content p{
+	font-size:3rem;
+	padding-top:3rem;
+	color: pink;
+}
+
+.Contactme{
+	background-color: red;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.Contactme .content h1{
+	font-size:5rem;
+	padding-top:3rem;
+	color: black;
+}
+.Contactme .content p{
+	font-size:1rem;
+	padding-top:1rem;
+	color: lightblue;
+}
